@@ -10,7 +10,7 @@ a{
     margin-right: 470px;
   }
 .m1 {
-    background-color: blanchedalmond;
+    background-color: rgb(206, 180, 154);;
     padding: 20px 5px; 
 }
 
@@ -19,18 +19,17 @@ a{
 }
 
 .m1 a:hover {
-    color: black;
+    color: #354ebe;
+
 }
 
 .m2{
-    background-color: blanchedalmond;
+    background-color: rgb(220, 216, 209);
 
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: blanchedalmond;
-    margin: 0;
+    background-color:blanchedalmond;
 }
 h2{
     padding: 20px 5px; 
@@ -53,3 +52,59 @@ color:saddlebrown;
 img{
 padding-left:50px ;
 }
+
+h1{
+    color:sienna;
+    font-family: Arial Black، Impact، Verdana، Helvetica Neue Bold، Lato;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+    font-weight: bold;
+
+}
+
+.Yeterlilik { 
+    list-style-type:square;
+    font-family:Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+    font-weight: bold;
+    color:rgb(193, 142, 70);
+
+}
+
+.Sosyal{
+    list-style-type:square;
+    font-family:Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+    font-weight: bold;
+    color:rgb(193, 142, 70);
+
+}
+
+aside {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 20px;
+    float: right;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h6{
+    color:black;
+  }
+
+  .footer{
+    background-color: rgb(235, 206, 132);
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer p:hover {
+    color: #354ebe;
+  }
+  
