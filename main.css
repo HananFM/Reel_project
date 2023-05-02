@@ -1,17 +1,19 @@
-a{
-    color:darkred;
+a {
+    color: darkred;
     font-weight: 1000;
     font-size: 1em;
-    font-family:Arial, sans-serif;
-    margin-left:20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
 }
 
 .navbar-brand {
     margin-right: 470px;
-  }
+}
+
 .m1 {
-    background-color: rgb(206, 180, 154);;
-    padding: 20px 5px; 
+    background-color: rgb(206, 180, 154);
+    ;
+    padding: 20px 5px;
 }
 
 .m1 a {
@@ -23,62 +25,64 @@ a{
 
 }
 
-.m2{
+.m2 {
     background-color: rgb(220, 216, 209);
 
 }
 
 body {
-    background-color:blanchedalmond;
-}
-h2{
-    padding: 20px 5px; 
-color:saddlebrown;
+    background-color: blanchedalmond;
 }
 
-.col-sm-6{
-    color:saddlebrown;
+h2 {
+    padding: 20px 5px;
+    color: saddlebrown;
+}
+
+.col-sm-6 {
+    color: saddlebrown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.col-sm-6{
-    color:saddlebrown;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+.col-sm-6 {
+    color: saddlebrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     margin-bottom: 20px;
     text-align: left;
-    font-size:19px ;
+    font-size: 19px;
 }
 
-img{
-padding-left:50px ;
+img {
+    padding-left: 50px;
 }
 
-h1{
-    color:sienna;
+h1 {
+    color: sienna;
     font-family: Arial Black، Impact، Verdana، Helvetica Neue Bold، Lato;
     font-weight: bold;
     text-decoration: underline;
 }
 
-h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;  
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
 }
 
-.Yeterlilik { 
-    list-style-type:square;
-    font-family:Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+.Yeterlilik {
+    list-style-type: square;
+    font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
     font-weight: bold;
-    color:rgb(193, 142, 70);
+    color: rgb(193, 142, 70);
 
 }
 
-.Sosyal{
-    list-style-type:square;
-    font-family:Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+.Sosyal {
+    list-style-type: square;
+    font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
     font-weight: bold;
-    color:rgb(193, 142, 70);
+    color: rgb(193, 142, 70);
 
 }
 
@@ -88,17 +92,18 @@ aside {
     padding: 20px;
     margin-left: 20px;
     float: right;
-  }
-  h2 {
+}
+
+h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
+}
 
-  h6{
-    color:black;
-  }
+h6 {
+    color: black;
+}
 
-  .footer{
+.footer {
     background-color: rgb(235, 206, 132);
     color: darkred;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -106,5 +111,70 @@ aside {
 
 .footer p:hover {
     color: #354ebe;
-  }
-  
+}
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+
+}
+
+.login-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.login-content .input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.loginImg {
+    align-items: left;
+}
+
+h3 {
+    color: sienna;
+    font-family: Arial Black، Impact، Verdana، Helvetica Neue Bold، Lato;
+    font-weight: bold;
+    text-align: left;
+}
+
+.bilgi {
+    text-align: justify;
+    padding-left: 20px;
+    font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+    color: rgb(193, 142, 70);
+    font-weight: bolder;
+}
+
+h4 {
+    color: sienna;
+    font-family: Arial Black، Impact، Verdana، Helvetica Neue Bold، Lato;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Taiz {
+    text-align: justify;
+    padding-left: 20px;
+    font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+    color: rgb(193, 142, 70);
+    font-weight: bolder;
+
+}

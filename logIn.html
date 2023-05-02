@@ -1,14 +1,11 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="utf-8" />
-    <meta name=" description" content="Hello to my world">
+    <title>log In</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
-    <title>Ana Sayfa</title>
-
 </head>
 
 <body>
@@ -47,37 +44,45 @@
     </div>
     <br>
     <br>
-    <!--End of Nvaigation bar-->
 
-    <div class="Container-fluid">
-        <div class="row">
-            <div class="col-sm-6"><img src="imgs/yemen-location-map.webp" alt="Yemen haritası">
-            </div>
-            <div class="col-sm-6">
-                <div class="row">
-                    <h2>Merhaba! Ben Hanan</h2>
+
+    <div class="login-container">
+        <div class="login-content">
+            <form action="index.html">
+                <h2 class="title">Welcome</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username :</h5>
+                        <input type="text" class="input">
+                    </div>
                 </div>
-
-
-                <div class="row">Bilgisayar mühendisliği birinci sınıf öğrencisiyim, 20 yaşındayım ve Yemenliyim.
-                    Dağcılık gibi sporları seviyorum ve yapıyorum ve ülkem <br>Yemen'i ziyaret ettiğimde
-                    Ayn Calut savaşının yapıldığı yeri andıran küçük <br>bir köy olan köyümüze gidiyoruz.
-                    Her tarafı dağlarla çevrili ve ben hep bu dağlara tırmanırım. Hobilerim kitap okumak
-                    ve dil öğrenmek</div>
-            </div>
-
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password :</h5>
+                        <input type="password" class="input">
+                    </div>
+                </div>
+                <a href="#">Forgot Password ?</a>
+                <input type="submit" class="btn" value="Login">
         </div>
+        <img class="loginImg"  src="imgs/2471610.png">
 
+            </form>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start footer">
+        <div class="text-center p-3" style="background-color: rgb(230, 204, 152);">
+            <P>© 2023 Contact Us: hanan.haidar@ogr.sakarya.edu.tr</P>
+        </div>
+    </footer>
 
-        <footer class="bg-light text-center text-lg-start footer">
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgb(230, 204, 152);">
-                <P>© 2023 Contact Us:  hanan.haidar@ogr.sakarya.edu.tr</P>
-            </div>
-            <!-- Copyright -->
-        </footer>
+    <script type="text/javascript" src="logIn.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
-        <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
-
-</html>
