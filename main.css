@@ -123,9 +123,8 @@ h6 {
 }
 
 .title {
-    text-align: center;
+    text-align: right ;
     align-items: center;
-
 }
 
 .login-content {
@@ -138,7 +137,7 @@ h6 {
 .login-content .input-div {
     position: relative;
     display: grid;
-    grid-template-columns: 7% 93%;
+    grid-template-columns: 60% 93%;
     margin: 25px 0;
     padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
@@ -147,6 +146,15 @@ h6 {
 .loginImg {
     align-items: left;
 }
+/* .forgot-password{ 
+padding-left:5px;
+}*/
+ .btn{
+    float: right;
+    padding-left:150px;
+    font-size: 20px;
+
+ }
 
 h3 {
     color: sienna;
@@ -176,5 +184,38 @@ h4 {
     font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
     color: rgb(193, 142, 70);
     font-weight: bolder;
-
 }
+
+.slider-container {
+    position: relative;
+    height: 300px; /* set the height of the slider */
+    overflow: hidden; /* hide the overflow of the container */
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 100%;
+    display: flex;
+    /* animation: slide 50s linear infinite; */
+  }
+  
+  .slider img {
+    flex: 1 0 0;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-300%);
+    }
+  }
+
+
