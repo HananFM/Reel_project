@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name=" description" content="Hello to my world">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <title>iletişim Sayfası</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row shadow">
+            <nav class="navbar navbar-expand-lg  m1">
+                <a class="navbar-brand" href="HTMLPage1.html">Hanan Dünyası</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="HTMLPage1.html">Benim Hakkinda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CV.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ulkem.html">ülkem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ilgi.html">ilgi alanım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logIn.html">giriş yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletişim.html">bize Ulaşın</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--End of Nvaigation bar-->
+ <body>
+         <form action="iletişim.php" method="POST">
+             <p>Bana Mesaj yazabılırsın</p>
+             <input class="ad" type="text" placeholder="Ad: " name="ad" required >
+             <input class="Soyad"type="text" placeholder=" Soyad: " name="Soyad" required >
+     
+    
+             <input class="emaill" type="email" placeholder="Eposta: " name="email" required >
+       
+     
+             <input class="ceptelefonu" type="text" placeholder="Cep telefonu: " name="cep" required  >
+             <select class="cins" name="cinsiyet">
+                  <option  value="cebvaplanmamış" selected  >Cinsiyet</option> 
+                  <option  value="erkek" >Erkek </option> 
+                  <option  value="kadın" >Kadın </option> 
+             </select>
+       
+             <textarea class="mesajyaz" name="mesaj"  cols="30" rows="10" placeholder="Mesaj yaz ..." ></textarea>
+             <input type="submit" value="Gönder" required>
+             <input type="reset" value="reset" required>
+          </form>
+      
+
+       
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+            $(' .togle i').click(function(){
+            $('ul').toggleClass('show')
+            });
+      </script>
+ </body>
+ 
+ <footer class="bg-light text-center text-lg-start footer">
+     <div class="text-center p-3" style="background-color: rgb(230, 204, 152);">
+            <P>© 2023 Contact Us:  hanan.haidar@ogr.sakarya.edu.tr</P>
+     </div>
+ </footer>
+</html>

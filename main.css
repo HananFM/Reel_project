@@ -9,7 +9,7 @@ a {
 }
 
 .navbar-brand {
-    margin-right: 470px;
+    margin-right: 480px;
 }
 
 .m1 {
@@ -88,14 +88,6 @@ h1 {
     color: rgb(193, 142, 70);
 
 }
-
-/* aside {
-    width: 300px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-left: 20px;
-    float: right;
-} */
 
 
 .footer {
@@ -228,6 +220,23 @@ h4 {
     color: rgb(193, 142, 70);
     font-weight: bolder;
 }
+#old_sanaa{
+    padding-left: 40px;
+
+}
+#bukshan{
+    padding-left: 40px;
+
+}
+#shibam{
+    padding-left: 40px;
+ 
+}
+#socatra{
+    padding-left: 40px;
+
+}
+
 /* slider */
 .slider .carousel-item{
 	min-height: 100vh;
