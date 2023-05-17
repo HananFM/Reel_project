@@ -58,8 +58,10 @@
         <p class="kit">Kitap ve roman okumayı seviyorum, özellikle gerçekçi olanları
             Biyografiler veya diğer kitaplar gibi.<br> 
             Okuduğum kitaplar arasında şunlar yer alıyor:<br> 
-            1- Khaled Hosseini'nin Uçurtma Avcısı.<br> 
+            1- Khaled Hosseini'nin Uçurtma Avcısı.<br>    
+            <span style="color: black;"><q id="kite-runner"></q></span></br>             
             2-Christy Brown'ın Sol Ayağım.<br>  
+            <span style="color: black;"><q id="left-foot"></q></span></br>
             3-Saud Al-Sanousi'nin bambu bacağı. <br> 
             4- Dave Bellers'ın The Lost Boy adlı romanının üç bölümünü de okudum.<p><br>
 
@@ -86,7 +88,26 @@
 
 
 
+     <script>
+        fetch('https://openlibrary.org/works/OL4456622W.json').
+            then(res => res.json()).
+            then(data => {
+                console.log('left foot');
+                var el = document.getElementById("left-foot");
+                el.innerText = data['description']['value'];
+                el.innerText += "\n\n this data has been read from API:https://openlibrary.org/works/OL4456622W.json";
+            });
 
+        fetch('https://openlibrary.org/works/OL5781992W.json').
+            then(res => res.json()).
+            then(data => {
+                console.log('kite-runner');
+                var el = document.getElementById("kite-runner");
+                el.innerText = data['description']+"\n\n this data has been read from API:https://openlibrary.org/works/OL5781992W.json";
+            });
+        
+        
+     </script>
 
 
     </body>
@@ -96,4 +117,6 @@
          <P>© 2023 Contact Us:  hanan.haidar@ogr.sakarya.edu.tr</P>
      </div>
   </footer>
+
+  
 </html>

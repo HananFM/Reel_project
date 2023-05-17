@@ -49,24 +49,24 @@
     <br>
     <!--End of Nvaigation bar-->
  <body>
-         <form action="iletişim.php" method="POST">
+         <form id="form" action="iletişim.php" method="POST">
              <p>Bana Mesaj yazabılırsın</p>
-             <input class="ad" type="text" placeholder="Ad: " name="ad" required >
-             <input class="Soyad"type="text" placeholder=" Soyad: " name="Soyad" required >
-     
-    
+             <input class="ad" type="text" placeholder="Ad: " name="ad" required ></br>
+             <input class="Soyad"type="text" placeholder="Soyad: " name="Soyad" required >
+             </br>
              <input class="emaill" type="email" placeholder="Eposta: " name="email" required >
-       
-     
-             <input class="ceptelefonu" type="text" placeholder="Cep telefonu: " name="cep" required  >
+             </br>
+             <input class="ceptelefonu" type="text" placeholder="Cep telefonu: " name="cep" pattern="[0-9]+" max.length="10" required  >
+             </br>
              <select class="cins" name="cinsiyet">
                   <option  value="cebvaplanmamış" selected  >Cinsiyet</option> 
                   <option  value="erkek" >Erkek </option> 
                   <option  value="kadın" >Kadın </option> 
              </select>
-       
-             <textarea class="mesajyaz" name="mesaj"  cols="30" rows="10" placeholder="Mesaj yaz ..." ></textarea>
-             <input type="submit" value="Gönder" required>
+             <br>
+             <textarea class="mesajyaz" name="mesaj"  cols="30" rows="5" placeholder="Mesaj yaz ..." ></textarea>
+             <br>
+             <input class=gonder type="submit" value="Gönder" required>
              <input type="reset" value="reset" required>
           </form>
       
