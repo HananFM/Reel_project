@@ -23,22 +23,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="HTMLPage1.html">Benim Hakkinda</a>
+                            <a class="nav-link" href="HTMLPage1.html">Ana Sayfası</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Benim.html">Benim Hakkinda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="CV.html">CV</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ulkem.html">ülkem</a>
+                            <a class="nav-link" href="ulkem.html">Ülkem</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ilgi.html">ilgi alanım</a>
+                            <a class="nav-link" href="ilgi.html">İlgi Alanım</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="logIn.html">giriş yap</a>
+                            <a class="nav-link" href="logIn.html">Giriş Yap</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="iletişim.html">bize Ulaşın</a>
+                            <a class="nav-link" href="iletişim.html">Bize Ulaşın</a>
                         </li>
                     </ul>
                 </div>
@@ -49,14 +52,15 @@
     <br>
     <!--End of Nvaigation bar-->
  <body>
-         <form id="form" action="iletişim.php" method="POST">
-             <p>Bana Mesaj yazabılırsın</p>
+       <div class="form">
+         <form action="iletişim.php" method="POST">
+             <h2 class="biz">..Bizimle iletişime geçmek için..</h2>
              <input class="ad" type="text" placeholder="Ad: " name="ad" required ></br>
              <input class="Soyad"type="text" placeholder="Soyad: " name="Soyad" required >
              </br>
              <input class="emaill" type="email" placeholder="Eposta: " name="email" required >
              </br>
-             <input class="ceptelefonu" type="text" placeholder="Cep telefonu: " name="cep" pattern="[0-9]+" max.length="10" required  >
+             <input class="ceptelefonu" type="text" placeholder="Cep telefonu: " name="cep" pattern="[0-9]+"min="1" max="10" required  >
              </br>
              <select class="cins" name="cinsiyet">
                   <option  value="cebvaplanmamış" selected  >Cinsiyet</option> 
@@ -64,12 +68,12 @@
                   <option  value="kadın" >Kadın </option> 
              </select>
              <br>
-             <textarea class="mesajyaz" name="mesaj"  cols="30" rows="5" placeholder="Mesaj yaz ..." ></textarea>
+             <textarea class="mesajyaz" name="mesaj"  cols="75" rows="5" placeholder="Mesaj yaz ..." ></textarea>
              <br>
              <input class=gonder type="submit" value="Gönder" required>
              <input type="reset" value="reset" required>
           </form>
-      
+      </div>
 
        
       <script type="text/javascript" src="js/bootstrap.js"></script>

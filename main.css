@@ -9,7 +9,7 @@ a {
 }
 
 .navbar-brand {
-    margin-right: 480px;
+    margin-right: 350px;
 }
 
 .m1 {
@@ -37,12 +37,21 @@ body {
 }
 
 h2 {
-    padding: 20px;
+    padding: 70px;
     color: saddlebrown;
     font-size: 24px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+.mer{
+    padding: 90px;
+    color: saddlebrown;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
 }
 
 .col-sm-6 {
@@ -72,6 +81,15 @@ h1 {
 }
 
 /* cv */
+.ak{
+    padding: 20px;
+    color: saddlebrown;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
 
 .Yeterlilik {
     list-style-type: square;
@@ -111,7 +129,8 @@ h1 {
 }
 
 .title {
-    text-align: right ;
+    padding-left: 150px;
+    text-align:left;
     align-items: center;
     text-decoration: underline;   
 }
@@ -129,7 +148,7 @@ h1 {
     grid-template-columns: 60% 93%;
     margin: 25px 0;
     padding: 5px 0;
-    border-bottom: 2px solid #d9d9d9;
+    width: 200px;
 }
 
 .loginImg {
@@ -155,7 +174,7 @@ padding-left:50px;
     font-weight: bold;
 }
 
-.film{
+/* .film{
     padding: 20px 5px;
     color: saddlebrown;
     font-size: 24px;
@@ -163,9 +182,9 @@ padding-left:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
    
-}
+} */
 
-.foto{
+/* .foto{
      padding: 20px 5px;
     color: saddlebrown;
     font-size: 24px;
@@ -173,7 +192,7 @@ padding-left:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
-}
+} */
 
 .kit{
     list-style-type: square;
@@ -188,6 +207,11 @@ p{
     font-weight: bold;
     color: rgb(193, 142, 70);
 
+}
+#kite-runner{
+    font-family: Open Sans، Roboto، Source Sans Pro، Helvetica Neue Regular، Lato Regular، PT Sans، Montserrat;
+    font-weight: bold;
+    
 }
 /* ulkem sayfasi */
 
@@ -374,45 +398,34 @@ h4 {
   }
 }
 /* end of test slider */
-
-.iletişim-sayfası form{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 350px;
-    height: 450px;
-    border-radius: 15px;
-    box-sizing: border-box;
-} 
-.iletişim-sayfası from{
-    
-        position: absolute;
-        top: 55%;
-        left: 500%;
-        transform: translate(-50%,-50%);
-        width: 350px;
-        height: 450px;
-        border-radius: 15px;
-        box-sizing: border-box;
-    }
+/*iletisim sayfasi*/
+.biz{ padding: 60px;
+    color: saddlebrown;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+ .form {
+    padding-left: 350px;
+ }  
 .ad,.Soyad{
     position: relative;
-    margin: 10px auto;
+    margin: 5px auto;
     border-radius: 5px;
-    padding: 0 20px;
-    height: 25px;
+    padding: 0 100px;
+    height: 30px;
     font-size: 16px;
-    left: 28px;
+    left: 90px;
 }
 
 .ceptelefonu,.emaill {
     position: relative;
-    margin: 10px auto;
-    left: 28px;
+    margin: 5px auto;
+    left: 90px;
     border-radius: 5px;
-    padding: 0 22px;
-    height: 25px;
+    padding: 0 100px;
+    height: 30px;
     font-size: 16px;
 }
 
